@@ -1,0 +1,50 @@
+.globe {
+	z-index: -100;
+    right: -30%;
+    width: 63%;
+    bottom: 50%;
+    transform: rotate(0deg);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.globe {
+	z-index: -100;
+    right: -60%;
+    width: 180%;
+    bottom: 50%;
+    transform: rotate(0deg);
+}
+
+.slides, .slides p {
+	font-weight: 400px;
+}
+
+.globe_top {
+	color: white !important;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+.globe {
+	z-index: -100;
+    right: -60%;
+    width: 180%;
+    bottom: 50%;
+    transform: rotate(0deg);
+}
+
+.slides, .slides p {
+	font-weight: 400px;
+}
+
+.globe_top {
+	color: white !important;
+}
+
+
+}
