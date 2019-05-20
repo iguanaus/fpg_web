@@ -25,6 +25,14 @@
 	color: white !important;
 }
 
+.toporder {
+    order: 1;
+}
+
+.bottomorder {
+    order: 0;
+}
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -44,6 +52,14 @@
 
 .globe_top {
 	color: white !important;
+}
+
+.toporder {
+    order: 1;
+}
+
+.bottomorder {
+    order: 0;
 }
 
 
