@@ -1,13 +1,14 @@
 
 var globe_bottom = 0
 
+/*
 jQuery(document).ready(function($){
 
     var div = $('.globe');
     var bottom = div.offset().top + div.height();
 
     globe_bottom = bottom
-
+   
   $(window).scroll(function(){
     $(".globe").css({
         bottom: globe_bottom + $(this).scrollTop()*.5
@@ -15,6 +16,7 @@ jQuery(document).ready(function($){
   });
   
 });
+*/
 
 
 
